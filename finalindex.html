@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CooloPool</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+        <link rel="stylesheet" href="style2.css" />
+        <link rel="stylesheet" href="mobile-style.css">
+       <style>
+                .h1{
+                    top:50%;
+                      transform:translateY(-50%);
+                      text-transform: capitalize;
+                      text-align: center;
+                  }
+        </style>
+    </head>
+    <body>
+    <!--NAVIGATION-->
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+        <a class="navbar-brand p-0" href="#"><img src="img/png (1).png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+             <div class="collapse navbar-collapse"id="#navbarResponsive">
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item"> 
+                         <a class="nav-link" href="#">LOGIN/SIGNUP</a>
+                     </li>
+                   
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbardrop" data-toggle="dropdown">
+                              MENU
+                            </a>
+                            <div class="dropdown-menu" class="scripted">
+                              <a class="dropdown-item" href="#">PLAN A TRIP</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">ORDER FOOD</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">BOOK TICKETS</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">BLOGS</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">FIND HOTEL</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">HISTORY</a>           
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT US</a>
+                            </li>
+                 </ul>
+             </div>  
+            
+            
+    </div>
+    </nav>
+    <!--IMAGE SLIDER-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/bck2 (5).jpg" alt="First slide" height="20%">
+                <div class="carousel-caption">
+                    <h1 class="display-2"> WELCOME</h1>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/bck2 (1).jpg" alt="Second slide" height="20%">
+                <div class="carousel-caption">
+                    <h1 class="display-2"> WELCOME</h1>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/bck2 (2).jpg" alt="Third slide" height="20%">
+                <div class="carousel-caption">
+                    <h1 class="display-2"> WELCOME</h1>
+                </div>
+            </div>
+            </div>
+    </div>
+    <!--WELCOME SECTION-->
+    <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                 <h1 class="display-4">Know About Us</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ligula ut eros tristique posuere et sit amet purus. Curabitur mattis, erat sed semper viverra, justo velit convallis magna, at aliquam est quam in nunc. Aliquam varius felis vel elit iaculis volutpat. Quisque id sem nulla. Etiam tempus purus eget enim porttitor faucibus. Morbi et semper neque, ac venenatis risus. Etiam convallis turpis nec sapien dapibus, nec sagittis tellus eleifend. Donec ac libero sed augue congue imperdiet quis fermentum velit. Phasellus quam dolor, rhoncus id finibus ac, tempor bibendum lectus. In scelerisque purus tristique, pretium lorem ut, scelerisque augue. Sed rutrum est in auctor sollicitudin. In rutrum pulvinar sollicitudin. 
+                        <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                </div>
+            </div>
+        </div>
+
+    <!--THREE COLUMN SECTION-->
+    <!--Card Section-->
+    <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                 <h1 class="display-4 p-0">Cracking The Hot Deals</h1>
+                 <hr class="my-4 p-0">
+                 <section class="section-4">
+                        <div class="team row ">
+                          <div class="col-md-4 col-12 text-center">
+                              <div class="card mr-2 d-inline-block shadow-lg">
+                                  <div class="card-img-top">
+                                    <img src="img/img1.jpg" class="img-fluid p-4" alt="">
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="card-title">Travel Coupons</h3>
+                                    <p class="card-text">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
+                                      minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                    <p class="text-black-50">CEO at Google</p>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="col-md-4 col-12">
+                              <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                                  <div class="carousel-inner text-center">
+                                    <div class="carousel-item active">
+                                      <div class="card mr-2 d-inline-block shadow">
+                                        <div class="card-img-top">
+                                          <img src="img/img2.jpg" class="img-fluid p-4" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                          <h3 class="card-title">Food Coupons</h3>
+                                          <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
+                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                          </p>
+                                          <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                          <p class="text-black-50">CEO at Google</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <div class="card  d-inline-block mr-2 shadow">
+                                        <div class="card-img-top">
+                                          <img src="img/img4.jpg" class="img-fluid p-4" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                          <h3 class="card-title">Food Coupons</h3>
+                                          <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
+                                            minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                          </p>
+                                          <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                          <p class="text-black-50">CEO at Google</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                          </div>
+                          </div>
+                          <div class="col-md-4 col-12 text-center">
+                              <div class="card mr-2 d-inline-block shadow-lg">
+                                  <div class="card-img-top">
+                                    <img src="img/img6.jpg" class="img-fluid p-4" alt="">
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="card-title">Travel Coupons</h3>
+                                    <p class="card-text">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
+                                      minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                    <p class="text-black-50">CEO at Google</p>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </section>
+                </div>
+
+
+    <section class="section-2 container-fluid p-0">
+            <div class="cover">
+              <div class="overlay"></div>
+              <div class="content text-center">
+                <h1>The new leading chain of India</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                </p>
+              </div>
+            </div>
+            <div class="container-fluid text-center">
+              <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                <div class="rect">
+                  <h1>2345</h1>
+                  <p>Happy Client</p>
+                </div>
+                <div class="rect">
+                  <h1>6784</h1>
+                  <p>Destinations</p>
+                </div>
+                <div class="rect">
+                  <h1>1056</h1>
+                  <p>Tickets Submitted</p>
+                </div>
+                <div class="rect">
+                  <h1>9152</h1>
+                  <p>Active Customers</p>
+                </div>
+              </div>
+            </div>
+    </section>
+<br>
+<br>
+    <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                  <br>
+                  <br>
+                 <h1 class="display-4">Plan Your Trip</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+             
+                        <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                <br>
+                <br>
+                      </div>
+            </div>
+        </div>
+
+
+
+    <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-12 col-lg-6">
+                  <br>
+                  <br>
+                  <br>
+                    <h2>The Historical Trip</h2>
+                    <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                    <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                    <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                    <br>
+                    <a href="#" class=" btn btn-primary">Learn More</a>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <img src="img/card1.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="container-fluid padding">
+                    <div class="row padding">
+                            <div class="col-md-12 col-lg-6">
+                                    <img src="img/card2.jpg"  class="img-fluid">
+                                </div>
+                        <div class="col-md-12 col-lg-6">
+                            <br>
+                            <br>
+                            <br>
+                            <h2>Kids Day Out</h2>
+                            <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                            <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                            <br>
+                            <a href="#" class=" btn btn-primary">Learn More</a>
+                        </div>
+                        
+                <div class="container-fluid padding">
+                   <div class="row padding">
+                      <div class="col-md-12 col-lg-6">
+                          <br>
+                          <br>
+                          <br>
+                        <h2>Marking Couple Goals</h2>
+                        <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                        <p class="lead">Sed eleifend, metus quis fringilla volutpat, lorem ex gravida nibh, nec lobortis purus erat ac purus. Vestibulum nibh quam, efficitur quis rhoncus sagittis, cursus non urna. Nulla id consectetur dolor. Curabitur orci eros, ullamcorper vitae tempor vel, ultricies id mi.</p>
+                         <br>
+                     <a href="#" class=" btn btn-primary">Learn More</a>
+                             </div>
+                            <div class="col-md-12 col-lg-6">
+                        <img src="img/card3.jpg" class="img-fluid">
+                                </div>
+        
+                                  
+                      
+
+
+                        <!--MEET THE TEAM-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4 "> What's Trending</h1>  
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding"> 
+    <div class="row padding">
+        <div class="col-md-2">
+            <div class="card">
+              <img class="card-img-top2 pd-0" src="img/blog1.jpg">  
+              
+            </div>
+        </div>
+        <div class="col-md-2">
+                <div class="card">
+                  <img class="card-img-top2 pd-0" src="img/blog2.jpg">  
+                  
+                </div>
+            </div>
+            <div class="col-md-2">
+                    <div class="card">
+                      <img class="card-img-top2 pd-0" src="img/blog3.jpg">  
+                      
+                    </div>
+                </div>
+                <div class="col-md-2">
+                        <div class="card">
+                          <img class="card-img-top2 pd-0" src="img/blog4.jpg">  
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                            <div class="card">
+                              <img class="card-img-top2 pd-0" src="img/blog5.jpg">  
+                              
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                                <div class="card">
+                                  <img class="card-img-top2 pd-0" src="img/blog6.jpg">  
+                                  
+                                </div>
+                            </div>
+        
+                    </div>
+                </div>
+   
+
+<hr class="my-4">
+<!--COnnect-->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        
+        </div>
+      
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
